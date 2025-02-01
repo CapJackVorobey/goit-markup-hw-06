@@ -783,3 +783,59 @@ svg {
 .form_btn:focus {
   background-color: #404bbf;
 }
+
+@media screen and (max-width: 768px) {
+  .top_navigation_list {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .top_connexion {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .container_one {
+    padding: 16px;
+    width: 100%;
+  }
+
+  .top_navigation_logo {
+    padding: 0;
+    margin: 0;
+  }
+
+  .header_mobile_menu {
+    width: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header_mobile_menu {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
