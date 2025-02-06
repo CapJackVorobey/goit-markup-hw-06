@@ -69,7 +69,7 @@
             </svg>
           </button>
 
-          <nav>
+          <nav class="mobile_menu_nav">
             <ul class="mobile_menu_list">
               <li>
                 <a href="" class="mobile_menu_list_item_first">Studio</a>
@@ -83,45 +83,49 @@
             </ul>
           </nav>
 
-          <ul class="mobile_menu_address">
-            <li>
-              <a href="tel:+110001111111" class="mobile_menu_address_item_first"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li>
-              <a
-                href="mailto:info@devstudio.com"
-                class="mobile_menu_address_item"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
+          <address>
+            <ul class="mobile_menu_address">
+              <li>
+                <a
+                  href="tel:+110001111111"
+                  class="mobile_menu_address_item_first"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile_menu_address_item"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
 
           <ul class="mobile_menu_social">
-            <li class="mobile_menu_social_item">
-              <a>
+            <li>
+              <a class="mobile_menu_social_item" href="">
                 <svg width="24" height="24">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="mobile_menu_social_item">
-              <a>
+            <li>
+              <a class="mobile_menu_social_item" href="">
                 <svg width="24" height="24">
                   <use href="./images/icons.svg#twiter"></use>
                 </svg>
               </a>
             </li>
-            <li class="mobile_menu_social_item">
+            <li class="mobile_menu_social_item" href="">
               <a>
                 <svg width="24" height="24">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="mobile_menu_social_item">
-              <a>
+            <li>
+              <a class="mobile_menu_social_item" href="">
                 <svg width="24" height="24">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
@@ -420,7 +424,7 @@
                   />
 
                   <source
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio/portfolio_mob_1-min.jpg    1x,
                       ./images/portfolio/portfolio_mob_1@2x-min.jpg 2x
@@ -467,7 +471,7 @@
                   />
 
                   <source
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio/portfolio_mob_2-min.jpg    1x,
                       ./images/portfolio/portfolio_mob_2@2x-min.jpg 2x
@@ -514,7 +518,7 @@
                   />
 
                   <source
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio/portfolio_mob_3-min.jpg    1x,
                       ./images/portfolio/portfolio_mob_3@2x-min.jpg 2x
@@ -561,7 +565,7 @@
                   />
 
                   <source
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio/portfolio_mob_4-min.jpg    1x,
                       ./images/portfolio/portfolio_mob_4@2x-min.jpg 2x
@@ -608,7 +612,7 @@
                   />
 
                   <source
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio/portfolio_mob_5-min.jpg    1x,
                       ./images/portfolio/portfolio_mob_5@2x-min.jpg 2x
@@ -655,7 +659,7 @@
                   />
 
                   <source
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio/portfolio_mob_6-min.jpg    1x,
                       ./images/portfolio/portfolio_mob_6@2x-min.jpg 2x
@@ -821,13 +825,16 @@
               class="visually-hidden check"
               id="user-privacy"
             />
-            <label for="user-privacy" class="checkbox_comment"
-              ><span class="checkbox_comment_piece">
+            <label for="user-privacy" class="checkbox_comment">
+              <span class="checkbox_comment_piece">
                 <svg width="10" height="8" class="checkbox">
                   <use href="./images/icons.svg#like"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a href="" class="checkbox_link">Privacy Policy</a>
+                </svg>
+              </span>
+              <span>
+                I accept the terms and conditions of the
+                <a href="" class="checkbox_link">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="form_btn">Send</button>
